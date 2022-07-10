@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "longpang";
+  src:url("../fonts/longpang.eot");
+  src:url("../fonts/longpang.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/longpang.woff") format("woff"),
+    url("../fonts/longpang.ttf") format("truetype"),
+    url("../fonts/longpang.svg#longpang") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "longpang" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "longpang" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\64";
+}
+.icon-profile:before {
+  content: "\65";
+}
+.icon-calendar:before {
+  content: "\61";
+}
+.icon-chart:before {
+  content: "\62";
+}
+.icon-distance:before {
+  content: "\63";
+}
+.icon-edit:before {
+  content: "\66";
+}
+.icon-filter:before {
+  content: "\67";
+}
+.icon-location:before {
+  content: "\68";
+}
+.icon-members:before {
+  content: "\69";
+}
+.icon-short:before {
+  content: "\6a";
+}
+.icon-vehicle:before {
+  content: "\6b";
+}
+.icon-push-circle:before {
+  content: "\6c";
+}
+.icon-found:before {
+  content: "\6d";
+}
+.icon-right:before {
+  content: "\6e";
+}
+.icon-male:before {
+  content: "\6f";
+}
+.icon-female:before {
+  content: "\70";
+}
+.icon-user-card:before {
+  content: "\71";
+}
+.icon-email:before {
+  content: "\72";
+}
+.icon-city:before {
+  content: "\73";
+}
+.icon-phone:before {
+  content: "\74";
+}
+.icon-lock:before {
+  content: "\75";
+}
+.icon-upload:before {
+  content: "\76";
+}
